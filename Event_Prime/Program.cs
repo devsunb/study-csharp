@@ -2,7 +2,6 @@
 
 namespace Event_Prime
 {
-<<<<<<< HEAD
     //class CallbackArg { }
 
     //class PrimeCallbackArg : CallbackArg
@@ -97,13 +96,6 @@ namespace Event_Prime
 
             //gen.RemoveDelegate(callsum);
             gen.PrimeGenerated -= SumPrime;
-=======
-    class MainClass
-    {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
->>>>>>> cdaa176958055a4255c3c7df3bc1e898519e31af
         }
     }
 }

@@ -6,7 +6,6 @@ namespace Test_Exception
     {
         public static void Main(string[] args)
         {
-<<<<<<< HEAD
             for (int i = 0; i < 1000000;i++)
             {
                 try {
@@ -29,9 +28,6 @@ namespace Test_Exception
     {
         public UserException(string msg) : base(msg)
         {
-=======
-            Console.WriteLine("Hello World!");
->>>>>>> cdaa176958055a4255c3c7df3bc1e898519e31af
         }
     }
 }

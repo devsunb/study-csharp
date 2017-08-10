@@ -1,5 +1,4 @@
 ﻿using System;
-<<<<<<< HEAD
 using System.Configuration;
 
 namespace Author_Attribute
@@ -23,16 +22,10 @@ namespace Author_Attribute
     }
 
 	[Author("infreljs", Version = 1)]
-=======
-
-namespace Author_Attribute
-{
->>>>>>> cdaa176958055a4255c3c7df3bc1e898519e31af
     class MainClass
     {
         public static void Main(string[] args)
         {
-<<<<<<< HEAD
 			Console.WriteLine(Environment.Version);
 			Console.WriteLine(ConfigurationManager.AppSettings["AdminEmailAddress"]);
 			Console.WriteLine(ConfigurationManager.AppSettings["Delay"]);
@@ -48,9 +41,4 @@ namespace Author_Attribute
 	class Class2
 	{
 	}
-=======
-            Console.WriteLine("Hello World!");
-        }
-    }
->>>>>>> cdaa176958055a4255c3c7df3bc1e898519e31af
 }
